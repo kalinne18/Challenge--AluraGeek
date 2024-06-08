@@ -1,0 +1,40 @@
+{
+  "produtos": [
+    {
+      "nome": "Caneca 3D Mario",
+      "preco": "R$59.00",
+      "imagem": "/img/caneca_3D_Mario.png",
+      "id": "1"
+    },
+    {
+      "nome": "Iluminaria",
+      "preco": "R$159.99",
+      "imagem": "/img/Iluminaria.png",
+      "id": "2"
+    },
+    {
+      "nome": "Almofada do Mario",
+      "preco": "R$35.99",
+      "imagem": "/img/Almofada.png",
+      "id": "4"
+    },
+    {
+      "nome": "Funko Pop Spider-Man",
+      "preco": "149,90",
+      "imagem": "https://geekfanaticos.fbitsstatic.net/img/p/funko-pop-spider-man-tom-holland-1157-spider-man-no-way-home-sem-volta-pra-casa-74001/260489.jpg?w=540&h=540&v=no-change&qs=ignore",
+      "id": "bEkWuD8"
+    },
+    {
+      "nome": "Funko Pop Chaves",
+      "preco": "379,00",
+      "imagem": "https://geekfanaticos.fbitsstatic.net/img/p/funko-pop-chaves-751-el-chavo-chaves-70746/257230.jpg?w=540&h=540&v=no-change&qs=ignore",
+      "id": "HdXoQc3"
+    },
+    {
+      "nome": "Funko Pop Groot",
+      "preco": "149,90",
+      "imagem": "https://geekfanaticos.fbitsstatic.net/img/p/funko-pop-groot-in-onesie-1192-i-am-groot-disney-plus-73935/260423.jpg?w=540&h=540&v=no-change&qs=ignore",
+      "id": "k_nwzA2"
+    }
+  ]
+}

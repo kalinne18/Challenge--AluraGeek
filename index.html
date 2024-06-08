@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek</title>
+    <link rel="stylesheet" href="./Style/style.css">
+    <link rel="stylesheet" href="./Style/reset.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="./img/logo.png" alt="AluraGeek">
+        </div> 
+    </header>
+    <main>
+        <section class="produtos">
+            <h1>Meus Produtos</h1>
+            <div data-produto class="lista-produtos">
+                 <!-- Cards de produtos serão inseridos aqui dinamicamente -->
+            </div>
+            <p class="nenhum-produto">Nenhum produto foi adicionado</p>
+        </section>
+      
+        <section class="adicionar-produto">
+            <h1>Adicionar Produto</h1>
+            <form id="produto-form">
+                <label for="produto-nome">Nome do Produto:</label>
+                <input type="text" id="produto-nome" name="produto-nome" required>
+
+                <label for="produto-preco">Preço:</label>
+                <input type="text" id="produto-preco" name="produto-preco" required>
+
+                <label for="produto-imagem">Imagem:</label>
+                <input type="text" id="produto-imagem" name="produto-imagem" required>
+
+                <div class="form-buttons">
+                    <button class="guardar" type="submit">Guardar</button>
+                    <button class="limpar" type="reset">Limpar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-logo">
+            <img src="./img/logo.png" alt="AluraGeek">
+        </div>
+        <p>Desenvolvido por Kalinne Ferreira</p>
+        <p>&copy; 2024 - Desenvolvido para Alura</p>
+    </footer>    
+    <script type="module" src="js/main.js"></script>
+    <!-- <script src="api.js" type="module"></script>
+    <script src="listarProdutos.js" type="module"></script>
+    <script src="criarProduto.js" type="module"></script> -->
+</body>
+
+</html>
