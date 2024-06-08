@@ -1,12 +1,15 @@
 {
   "name": "challenge--alurageek",
   "version": "1.0.0",
-  "description": "",
+  "description": "---\r <p align=\"center\" >\r      <img width=\"600\" heigth=\"600\" src=\"/img/projeto_final.png\">\r </p>",
   "main": "index.js",
   "scripts": {
     "start": "json-server --watch ./database/db.json --port 3000"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^1.0.0-beta.1"
+  }
 }
